@@ -11,7 +11,7 @@ html{
 
 .container-title{
     /* background-color: green; */
-    font-size: 75px;
+    font-size: 60px;
     text-align: center;
 }
 
@@ -56,6 +56,23 @@ html{
 }
 
 .my-container2{
-    background-color:rgb(225, 226, 228);
-    height: 100%;
+    background-color:rgb(245, 245, 245);
+    /* height: 100%; */
+    padding: 1%;
+}
+
+@media screen and (max-width:720px){
+    .my-container2{
+        display: none;
+    }
+}
+
+hr{
+    border: solid gray 1px;
+    margin: 0px;
+}
+
+#date{
+    color: midnightblue;
+    font-style: bold;
 }
