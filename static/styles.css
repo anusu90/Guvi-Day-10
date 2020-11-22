@@ -76,3 +76,52 @@ hr{
     color: midnightblue;
     font-style: bold;
 }
+
+.main-txt{
+    font-weight: bolder;
+}
+
+.substory-image{
+    width:40%;
+    float: left;
+    margin-right: 5%;
+
+}
+
+.substory-text{
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+.substory-row{
+    margin-bottom: 5%;
+}
+
+h3{
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+
+}
+/* font-family: 'Raleway', sans-serif; */
+
+.class-for-padding{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.class-for-margin{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* side news */
+
+.side-header{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* ADDITIONAL CSS FOR OPINION PAGE */
