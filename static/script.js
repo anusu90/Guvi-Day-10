@@ -24,3 +24,11 @@ w.resize(() => {
 
 let d = document.getElementById("date")
 d.innerHTML = String(new Date()).slice(0,15);
+
+let dates = document.querySelectorAll("p[name = 'story-date']");
+console.log(dates);
+
+for (x of dates){
+    x.innerHTML = String(new Date()).slice(0,15);
+}
+

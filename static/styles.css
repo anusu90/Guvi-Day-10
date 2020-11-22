@@ -78,7 +78,7 @@ hr{
 }
 
 .main-txt{
-    font-weight: bolder;
+    font-weight: 400;
 }
 
 .substory-image{
@@ -125,3 +125,19 @@ h3{
 
 
 /* ADDITIONAL CSS FOR OPINION PAGE */
+.opinion-image-main{
+    float: right;
+    width: 50%;
+    /* margin:2%; */
+    margin-left: 1.5%;
+}
+
+.story-date{
+    background-color: red;
+    color: white;
+    display: inline;
+}
+
+.red-text-opinion{
+    color: red;
+}
